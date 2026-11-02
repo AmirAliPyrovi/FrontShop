@@ -978,7 +978,7 @@ padding: 4px;
 
 #pbox{
     padding-left: 80px;
-    gap: 20px   ;
+    gap: 5px   ;
     display: flex;
     flex-direction: column;
 }
