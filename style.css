@@ -1274,3 +1274,569 @@ width: 50px;
     }
 }
 
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    min-width: 0;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    #header-1 {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        inset: auto;
+    }
+
+    #user-Image {
+        right: 10px;
+        top: 9px;
+        width: 30px;
+    }
+
+    .T2-Header {
+        right: 48px;
+        top: 15px;
+        width: auto;
+        font-size: 12px;
+    }
+
+    #T1-Header {
+        right: auto;
+        left: 10px;
+        top: 8px;
+        font-size: 18px;
+    }
+
+    #HeaderB2 {
+        position: relative;
+        width: 100%;
+        height: 125px;
+    }
+
+    #logo-site {
+        width: 100px;
+        top: 8px;
+        right: 10px;
+    }
+
+    #Sabad-Image {
+        width: 30px;
+        left: 12px;
+        top: 12px;
+    }
+
+    #s2 {
+        display: none;
+    }
+
+    #serch1 {
+        top: 65px;
+        right: 10px;
+        left: 10px;
+        width: calc(100% - 20px);
+        height: 38px;
+    }
+
+    #serch-image,
+    #serch-image2 {
+        top: 69px;
+        left: 20px;
+        width: 27px;
+    }
+
+    #HeaderB3 {
+        position: relative;
+        width: 100%;
+        min-height: 45px;
+        overflow-x: auto;
+    }
+
+    #menu {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: max-content;
+        max-width: 100%;
+        gap: 18px;
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    #filter {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 100%;
+        gap: 15px;
+        padding: 8px 12px;
+        justify-content: flex-start;
+    }
+
+    .slider-container {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        width: 100%;
+        max-width: 100%;
+        height: 180px;
+        margin: 0 auto;
+        border-radius: 0;
+    }
+
+    .slider-wrapper {
+        height: 100%;
+        width: 100%;
+    }
+
+    .slide {
+        min-width: 100%;
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+    }
+
+    .slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .prev,
+    .next {
+        padding: 8px 12px;
+        font-size: 18px;
+    }
+
+    .dots-container {
+        bottom: 10px;
+        gap: 7px;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .dot.active {
+        width: 20px;
+    }
+
+    h2 {
+        position: relative;
+        top: auto;
+        width: 100%;
+        justify-content: center;
+        margin: 24px 0;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #main2 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        justify-items: center;
+        align-items: start;
+        gap: 18px 10px;
+        padding: 10px 12px 25px;
+    }
+
+    #imgdastebandi,
+    #imgdastebandi11,
+    #imgdastebandi12,
+    #imgdastebandi13,
+    #imgdastebandi14 {
+        display: block;
+        width: 75px;
+        max-width: 100%;
+        height: 75px;
+        object-fit: contain;
+    }
+
+    #l1,
+    #l11,
+    #l12,
+    #l13,
+    #l14 {
+        position: static;
+        top: auto;
+        right: auto;
+        width: 100%;
+        text-align: center;
+        text-wrap: wrap;
+        font-size: 12px;
+    }
+
+    #sell {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        width: 100%;
+        height: auto;
+        min-height: 42px;
+        margin: 10px 0 20px;
+        padding: 8px;
+        font-size: 18px;
+        transform: none;
+    }
+
+    #main3 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px 12px;
+        padding: 12px;
+        justify-content: stretch;
+    }
+
+    #imgdastebandi2,
+    #imgdastebandi3,
+    #imgdastebandi4,
+    #imgdastebandi5 {
+        position: static;
+        display: block;
+        width: 100%;
+        height: 130px;
+        object-fit: contain;
+    }
+
+    #l2,
+    #l22,
+    #l222,
+    #l2222 {
+        position: static;
+        width: 100%;
+        padding: 5px !important;
+        text-align: center;
+        text-indent: 0;
+        font-size: 12px;
+        overflow-wrap: anywhere;
+    }
+
+    #main3 span {
+        position: static !important;
+        display: inline-block;
+        padding: 3px !important;
+        font-size: 12px;
+    }
+
+    #sabadadd,
+    #sabadadd2,
+    #sabadadd3,
+    #sabadadd4 {
+        position: static;
+        display: block;
+        width: fit-content;
+        max-width: 100%;
+        margin: 8px auto;
+        padding: 7px 10px;
+        visibility: visible;
+        white-space: normal;
+        font-size: 12px;
+    }
+
+    #main4 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+        width: 100%;
+        padding: 10px 12px;
+    }
+
+    #footer {
+        position: relative;
+        top: auto;
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        padding: 25px 15px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    #textf1,
+    #textf2,
+    #textf3,
+    #textf4 {
+        display: block;
+        position: static;
+        width: 100%;
+        line-height: 2;
+        text-align: center;
+    }
+
+    #khat1,
+    #khat2,
+    #khat3 {
+        position: static;
+        display: block;
+        width: min(80%, 250px);
+        margin: 12px auto;
+    }
+
+    #h31,
+    #h32,
+    #h33 {
+        position: static;
+        line-height: 1.8;
+    }
+
+    #loc {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        width: 100%;
+        padding: 10px 45px 0 0;
+        line-height: 2.2;
+    }
+
+    #data {
+        font-size: 14px;
+        overflow-wrap: anywhere;
+    }
+
+    #img-phone,
+    #img-home,
+    #img-Email {
+        right: auto;
+        left: auto;
+        width: 30px;
+        position: absolute;
+    }
+
+    #img-Email {
+        top: 10px;
+        right: 5px;
+    }
+
+    #img-phone {
+        top: 75px;
+        right: 5px;
+    }
+
+    #img-home {
+        top: 140px;
+        right: 5px;
+    }
+
+    #malekiyat {
+        position: relative;
+        top: auto;
+        width: 100%;
+        height: auto;
+        min-height: 35px;
+        padding: 8px 5px;
+        font-size: 11px;
+    }
+
+    #mysabad {
+        width: min(85vw, 300px);
+        height: 100dvh;
+        overflow-y: auto;
+    }
+
+    #s3 {
+        top: 20px;
+        right: 70px;
+    }
+
+    #close-image {
+        top: 10px;
+        right: 10px;
+        width: 35px;
+    }
+
+    #filtert,
+    #filtert2 {
+        z-index: 20;
+        max-width: calc(100vw - 20px);
+    }
+
+    #serchbox {
+        position: fixed;
+        top: 110px;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        max-width: none;
+        height: min(400px, 65dvh);
+        overflow-y: auto;
+        padding: 20px;
+    }
+
+    #hosdaradd {
+        position: fixed;
+        top: 50%;
+        left: 10px;
+        right: 10px;
+        width: auto;
+        height: auto;
+        padding: 8px;
+    }
+
+    #s9 {
+        right: 10px;
+        bottom: 15px;
+        top: auto;
+        width: auto;
+        max-width: calc(100% - 20px);
+        padding: 8px 12px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    #themeBtn {
+        top: 5px;
+        left: 65px;
+        width: auto;
+    }
+
+    .product-detail-box1,
+    .product-detail-box2,
+    .product-detail-box3,
+    .product-detail-box4 {
+        padding: 65px 16px 20px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 16px;
+        overflow-y: auto;
+    }
+
+    .product-back-btn {
+        top: 12px;
+        right: 12px;
+        padding: 9px 14px;
+        font-size: 13px;
+    }
+
+    .product-detail-image {
+        width: 100%;
+        height: 35vh;
+        min-height: 180px;
+        flex-shrink: 0;
+    }
+
+    .product-detail-info {
+        width: 100%;
+        max-width: none;
+        flex-shrink: 0;
+    }
+
+    .product-detail-info h1 {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .product-detail-price {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+
+    .product-detail-description {
+        font-size: 14px;
+        line-height: 1.9;
+        margin-bottom: 18px;
+    }
+
+    .product-cart-btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    #pbox {
+        padding-left: 10px;
+    }
+
+    #boxp {
+        position: relative;
+        top: auto;
+        gap: 12px;
+    }
+
+    #imgbox1,
+    #imgbox2,
+    #imgbox3,
+    #imgbox4 {
+        width: 35px;
+    }
+
+    #imgr {
+        width: min(100%, 250px);
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    #serch1 {
+        right: 180px;
+        width: calc(100% - 360px);
+    }
+
+    #logo-site {
+        right: 15px;
+        width: 130px;
+    }
+
+    #menu {
+        right: 160px;
+        gap: 20px;
+    }
+
+    #main3 {
+        left: 15px;
+        right: 15px;
+        gap: 20px;
+    }
+
+    #imgdastebandi2,
+    #imgdastebandi3,
+    #imgdastebandi4,
+    #imgdastebandi5 {
+        width: 160px;
+    }
+
+    #footer {
+        padding-right: 180px;
+    }
+
+    .product-detail-box1,
+    .product-detail-box2,
+    .product-detail-box3,
+    .product-detail-box4 {
+        gap: 25px;
+        padding: 70px 25px 30px;
+    }
+}
