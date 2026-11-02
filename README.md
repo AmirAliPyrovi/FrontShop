@@ -16,3 +16,6 @@ A multi-page front-end project built with HTML, CSS and JavaScript.
 - `js/` — فایل‌های جاوااسکریپت
 - `images/` — تصاویر، آیکون‌ها، لوگوها و پوسترها
 - `fonts/` — فونت‌ها
+
+##Info
+- `Image` — گرفته شده از دیجی کالا
