@@ -7,7 +7,6 @@ A multi-page front-end project built with HTML, CSS and JavaScript.
 - `about.html` — درباره ما
 - `shop.html` — فروشگاه
 - `callme.html` — تماس با ما
-- `login.html` — ورود
 - `tasviehesab.html` — تسویه حساب
 - `loading.html` — صفحه بارگذاری
 
