@@ -4,9 +4,7 @@ A multi-page front-end project built with HTML, CSS and JavaScript.
 
 ## Pages
 - `index.html` — صفحه اصلی
-- `about.html` — درباره ما
 - `shop.html` — فروشگاه
-- `callme.html` — تماس با ما
 - `tasviehesab.html` — تسویه حساب
 - `loading.html` — صفحه بارگذاری
 
